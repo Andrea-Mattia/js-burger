@@ -21,7 +21,7 @@ for (var i = 0; i < addBtn.length; i++) {
     var add = addBtn[i];
     add.addEventListener('click', function () {
         // uso this per indicare l'elemento cliccato al momento
-        // uso previousElementSibiling per èrendere l'elemento direttamente prima
+        // uso previousElementSibling per èrendere l'elemento direttamente prima
         var thisCheckbox = this.previousElementSibling;
         // // faccio in modo che se la checkbox e checked passa ad unchecked e viceversa
         thisCheckbox.checked = ! thisCheckbox.checked;
